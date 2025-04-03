@@ -9,6 +9,7 @@ MessageBox 是一个基于 Qt 的消息提示框，提供了以下特性：
 - **窗口保持时间可配置**
 - **仅支持静态调用**
 - **自适应分辨率**
+- **窗口右下角冒泡弹出**
 
 ## 使用方法
 
@@ -47,6 +48,11 @@ QMesBoxWidget::MesBox(Theme themeType, const QString& title, const QString& text
 
 ## 版本
 开发使用Qt 6.3.2
+
+## 效果
+![image](https://github.com/user-attachments/assets/89eda80c-f2cd-45d1-9c55-ae2c7354d49c)
+![image](https://github.com/user-attachments/assets/18ed3b9b-8d58-4bd2-ba82-6aaf40114595)
+
 
 ## 安装
 1. 下载或克隆本项目：
